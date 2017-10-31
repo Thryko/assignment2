@@ -23,6 +23,73 @@
 .site-title{
     font-family: 'Kanit', sans-serif;
 }
+
+.entry-title{
+    font-family: 'Kanit', sans-serif !important;
+}
+/*globally changes captions to the blue color used throughout the rest of the theme.*/
+.wp-caption-text{
+    color: #24e7ff;
+    
+}
+/*Changes bold and nav text to be bright white, for added EXTRA BOLD emphasis. UPDATE: CHANGES FONT TO KANIT.*/
+b, .nav-subtitle{color:#ffffff !important;}
+.entry-title{color:#ffffff !important; font-weight:600; font-family: 'Kanit', sans-serif;}
+
+
+/*
+Replaces the boring little colored circle or squares with a cute little 40px moon icon. Low cost modification, icon is less than 1kb.
+UPDATE: PATH MODIFIED TO FUNCTION WITH CHILD THEME.*/
+.dark-style:not(.show-icon) .wpex-timeline > li .wpex-timeline-icon .fa{
+   
+    background-image:url('custom-assets/moon-40.png') !important;
+
+    width: 40px; //WIDTH of the icon
+    height: 20px; //HEIGHT of the icon
+    display: inline-block;
+    background-position:center;
+    background-size:cover;
+    box-shadow: none;
+    border: none; 
+    background-color: transparent;
+    z-index: 2;
+
+}
+
+
+/*changes timeline date font to libre franklin, modifies weight and such to match main entry font.*/
+.wpex-timeline-time span:not(.info-h){
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-size: 90% !important;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+/*adds hover color to main nav links.*/
+#top-menu a:hover{
+    color: #24e7ff !important;
+    
+}
+/*changes hover color of "learn more" text for legibility*/
+.wpex .timeline-details .wptl-readmore > a:hover{
+    color: black !important;
+}
+
+/*adjusts spacing on timeline page to get a better gap between entries.
+(compensates for thicker date font)*/
+.wp-timeline{
+    padding-bottom: 80px !important;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+
+/*!!!!!Rules below are from assignment 1. Rules above are either changed or new.!!!!!!/
+
+/*-----------------------------------------------------------------------------------*/
+
+
 /* hides overly large featured image on home page - DEPRICATED */
 .home page .header-image img {
     visibility: hidden;
@@ -119,25 +186,6 @@ margin-right: auto;
 }}
 
 /*
-Replaces the boring little colored circle or squares with a cute little 40px moon icon. Low cost modification, icon is less than 1kb.
-*/
-.dark-style:not(.show-icon) .wpex-timeline > li .wpex-timeline-icon .fa{
-   
-    background-image:url('../custom-assets/moon-40.png') !important;
-
-    width: 40px; //WIDTH of the icon
-    height: 20px; //HEIGHT of the icon
-    display: inline-block;
-    background-position:center;
-    background-size:cover;
-    box-shadow: none;
-    border: none; 
-    background-color: transparent;
-    z-index: 2;
-
-}
-
-/*
 Changes dark-style line to be actually visible with TwentySeventeen's dark theme. Matches header text and bottom buttons.
 */
 .dark-style .wpex-timeline > li:after, .dark-style .wpex-timeline > li:first-child:before{
@@ -180,11 +228,6 @@ Even scarier selector. Changes sidebar links, poster names and dates to a nice b
 .colors-dark .entry-title a, .colors-dark .entry-meta a, .colors-dark.blog .entry-meta a.post-edit-link, .colors-dark.archive .entry-meta a.post-edit-link, .colors-dark.search .entry-meta a.post-edit-link, .colors-dark .page-links a, .colors-dark .page-links a .page-number, .colors-dark .entry-footer a, .colors-dark .entry-footer .cat-links a, .colors-dark .entry-footer .tags-links a, .colors-dark .edit-link a, .colors-dark .post-navigation a, .colors-dark .logged-in-as a, .colors-dark .comment-navigation a, .colors-dark .comment-metadata a, .colors-dark .comment-metadata a.comment-edit-link, .colors-dark .comment-reply-link, .colors-dark a .nav-title, .colors-dark .pagination a, .colors-dark .comments-pagination a, .colors-dark .widget .widget-title a, .colors-dark .widget ul li a, .colors-dark .site-footer .widget-area ul li a, .colors-dark .site-info a{
 color:#24e7ff
 }
-
-/*Changes bold and nav text to be bright white, for added EXTRA BOLD emphasis.*/
-b, .nav-subtitle{color:#ffffff !important;}
-.entry-title{color:#ffffff !important; font-weight:600;}
-
 
 /*changes small text on left of timeline to slightly larger size and white. You can see where this is going.*/
 .info-h{color: #ffffff !important; font-size: smaller !important;}
