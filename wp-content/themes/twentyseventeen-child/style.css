@@ -1,0 +1,200 @@
+/*
+ Theme Name:   Twenty Seventeen Child
+ Theme URI:    thryko.imgd.ca/a2/wp-content/themes/twenty-fifteen-child/
+ Description:  Twenty Seventeen Child Theme
+ Author:       Tyler Hryko
+ Author URI:   Thryko.imgd.ca
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-seventeen-child
+*/
+/* hides overly large featured image on home page - DEPRICATED */
+.home page .header-image img {
+    visibility: hidden;
+}
+
+/* Allows for tweaking of header media for text legibility purposes - NOT IN USE CURRENTLY, LEFT IN JUST IN CASE*/
+div.custom-header-media img{
+filter:brightness(100%);
+}
+
+/* Makes site description font bolder for legibility. */
+p.site-description{
+font-weight: bolder;
+}
+
+/* Adjusts header spacing on timeline page to align with vertical line of timeline. Rough solution, but works (more or less) on most widths. Mobile is a little sketchy, may implement specific rule for that later.*/
+.post-113 .entry-header{
+margin-left: 6% !important;
+}
+
+
+/*Hides featured image on single timeline posts - currently setting it up so timeline links to blog format posts instead, as single timeline format is a little ugly without significant CSS rework.*/
+body.wp-timeline-template-default .single-featured-image-header{
+display:none !important;
+}
+
+/*
+Removes superfluous space above timeline page headers. I have no idea why there was an extra 80px there, but it looked awful.
+*/
+body.wp-timeline-template-default .site-content-contain .site-content {
+padding: unset !important;
+}
+
+/*
+forces timeline to be full-width of the content section.
+*/
+.post-113 .entry-content{
+width: 100% !important;
+}
+
+/* shrinks padding around timeline label, which was a little superfluous.*/
+.wpex-timeline > li .wpex-timeline-label{
+padding-top: 10px;
+}
+
+
+/*shrinks featured image on single post pages.*/
+
+
+
+
+
+@media only screen and (max-width: 3280px) {
+.single-featured-image-header{
+width: 36%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 2560px) {
+.single-featured-image-header{
+width: 36%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 1980px) {
+.single-featured-image-header{
+width: 48%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 1600px) {
+.single-featured-image-header{
+width: 57%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 1440px) {
+.single-featured-image-header{
+width: 63%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 1280px) {
+.single-featured-image-header{
+width: 71%;
+margin-left:auto;
+margin-right: auto;
+}}
+@media only screen and (max-width: 1024px) {
+.single-featured-image-header{
+width: 90%;
+margin-left:auto;
+margin-right: auto;
+}}
+
+/*
+Replaces the boring little colored circle or squares with a cute little 40px moon icon. Low cost modification, icon is less than 1kb.
+*/
+.dark-style:not(.show-icon) .wpex-timeline > li .wpex-timeline-icon .fa{
+   
+    background-image:url('../custom-assets/moon-40.png') !important;
+
+    width: 40px; //WIDTH of the icon
+    height: 20px; //HEIGHT of the icon
+    display: inline-block;
+    background-position:center;
+    background-size:cover;
+    box-shadow: none;
+    border: none; 
+    background-color: transparent;
+    z-index: 2;
+
+}
+
+/*
+Changes dark-style line to be actually visible with TwentySeventeen's dark theme. Matches header text and bottom buttons.
+*/
+.dark-style .wpex-timeline > li:after, .dark-style .wpex-timeline > li:first-child:before{
+background: #ddd !important;
+}
+
+/*
+Changes timeline dark-style background to a lighter grey for a little more contrast.
+*/
+.wpex-timeline-list.dark-style .wpex-timeline > li .wpex-timeline-label{
+background: #555;
+}
+
+/*
+Changes dark-style timeline text to a lighter shade for more contrast. Legibility, yo!
+*/
+.wpex-timeline-list.dark-style .wpex-timeline > li .wpex-timeline-label{
+color: #dedede !important;
+}
+
+.wpex-timeline-list.dark-style .wpex-timeline > li .wpex-timeline-label .link-more{
+display:none;
+}
+
+/*
+dispite the godawfully long selector, all this does is change links in the timeline label cards to white for legibility. Also changes the font to match the rest of the website theme.
+*/
+.dark-style .timeline-details .wptl-readmore > a, .dark-style .wpex-timeline > li .wpex-timeline-label h2 a, .dark-style li .wptl-readmore-center > a, .wpex-timeline-list.dark-style .wpex-taxonomy-filter li a:not(.active):not(:hover), .wpex.horizontal-timeline.dark-style .wpex-timeline-label h2 a{
+color: #ffffff !important;
+font-family: Libre Franklin;
+font-weight: bold;
+font-size: 70%;
+letter-spacing: 1px;
+}
+
+
+/*
+Even scarier selector. Changes sidebar links, poster names and dates to a nice bright blue to match the timeline page and bring about increased visual coherency.
+*/
+.colors-dark .entry-title a, .colors-dark .entry-meta a, .colors-dark.blog .entry-meta a.post-edit-link, .colors-dark.archive .entry-meta a.post-edit-link, .colors-dark.search .entry-meta a.post-edit-link, .colors-dark .page-links a, .colors-dark .page-links a .page-number, .colors-dark .entry-footer a, .colors-dark .entry-footer .cat-links a, .colors-dark .entry-footer .tags-links a, .colors-dark .edit-link a, .colors-dark .post-navigation a, .colors-dark .logged-in-as a, .colors-dark .comment-navigation a, .colors-dark .comment-metadata a, .colors-dark .comment-metadata a.comment-edit-link, .colors-dark .comment-reply-link, .colors-dark a .nav-title, .colors-dark .pagination a, .colors-dark .comments-pagination a, .colors-dark .widget .widget-title a, .colors-dark .widget ul li a, .colors-dark .site-footer .widget-area ul li a, .colors-dark .site-info a{
+color:#24e7ff
+}
+
+/*Changes bold and nav text to be bright white, for added EXTRA BOLD emphasis.*/
+b, .nav-subtitle{color:#ffffff !important;}
+.entry-title{color:#ffffff !important; font-weight:600;}
+
+
+/*changes small text on left of timeline to slightly larger size and white. You can see where this is going.*/
+.info-h{color: #ffffff !important; font-size: smaller !important;}
+
+.social-navigation a{color:#24e7ff !important;}
+
+/*Changes emphasized links to be more... emphasized.*/
+em a, em a:visited{
+color: #24e7ff !important;
+font-weight:bold;
+text-decoration: none;
+}
+
+/*Changes contact form labels to match the rest of the theme.*/
+.wpcf7 p{
+font-family: Libre Franklin;
+text-transform: uppercase;
+font-size: 90%;
+letter-spacing: 0.5px;
+color: white;
+}
+
+
+/*deletes "Proudly Powered by Wordpress" with extreme prejudice.*/
+.site-info{display:none;}
