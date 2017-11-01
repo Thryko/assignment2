@@ -23,7 +23,7 @@ get_header(); ?>
                     </video>
                 </div>
 				<div class="page-content" style="float:right; display:block;">
-					<p><?php _e( '404: Failure to lauch! Maybe try a search?', 'twentyseventeen' ); ?></p>
+					<p><?php _e( '404: Failure to launch! Maybe try a search?', 'twentyseventeen' ); ?></p>
 
 					<?php get_search_form(); ?>
 
