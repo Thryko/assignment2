@@ -84,7 +84,10 @@ also kicks it down a bit for better spacing.*/
     padding-bottom: 80px !important;
 }
 
-
+.site-footer .social-navigation {
+     text-align: center;
+     width: 100%;
+}
 /*-----------------------------------------------------------------------------------*/
 
 /*!!!!!Rules below are from assignment 1. Rules above are either changed or new.!!!!!!/
