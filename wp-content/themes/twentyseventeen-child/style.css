@@ -57,13 +57,15 @@ UPDATE: PATH MODIFIED TO FUNCTION WITH CHILD THEME.*/
 }
 
 
-/*changes timeline date font to libre franklin, modifies weight and such to match main entry font.*/
+/*changes timeline date font to libre franklin, modifies weight and such to match main entry font.
+also kicks it down a bit for better spacing.*/
 .wpex-timeline-time span:not(.info-h){
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
     font-size: 90% !important;
     font-weight: bold;
     letter-spacing: 0.5px;
+    padding-top: 5px !important;
 }
 
 /*adds hover color to main nav links.*/
