@@ -1,4 +1,4 @@
-VEùY<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:488;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-04 01:54:56";s:13:"post_date_gmt";s:19:"2017-10-04 08:54:56";s:12:"post_content";s:8936:"&nbsp;
+YRùY<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:488;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-04 01:54:56";s:13:"post_date_gmt";s:19:"2017-10-04 08:54:56";s:12:"post_content";s:8936:"&nbsp;
 
 <strong>General Settings:</strong>
 <ul>

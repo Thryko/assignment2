@@ -1,4 +1,4 @@
-¢EùY<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":24:{s:2:"ID";i:486;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-31 20:52:14";s:13:"post_date_gmt";s:19:"2017-11-01 03:52:14";s:12:"post_content";s:16346:"<strong>Assignment 2 documentation:</strong>
+YRùY<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:486;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-31 21:46:27";s:13:"post_date_gmt";s:19:"2017-11-01 04:46:27";s:12:"post_content";s:17878:"<strong>Assignment 2 documentation:</strong>
 
 <strong>PLEASE NOTE: DARK COLOR SCHEME IN THE CUSTOMIZER *MUST* BE ENABLED AFTERWARDS IF THE SITE IS BEING MIGRATED TO A NEW PLATFORM.</strong>
 
@@ -10,6 +10,7 @@
 <ul>
  	<li>Gutted footer, as it doesn't need anything other than the social links menu. Widgets, etc. just add more PHP calls than are necessary.</li>
  	<li>Pared down front page to remove panel system (again, to allow for fewer PHP calls/faster loading)</li>
+ 	<li>Added customized 404 page, requiring a new 404.php</li>
 </ul>
 <strong>Misc. Modifications:</strong>
 <ul>
@@ -185,9 +186,39 @@ margin-bottom: 0px;
 padding-top: 65px !important;
 }
 
-&nbsp;
+/*AddsÂ  styling to 404 page.*/
+
+.error404 video{
+border: 2px solid #24e7ff;
+border-radius: 4px;
+}
 
 &nbsp;
+
+/*Makes the "About" page single-column.*/
+.page-id-26 .entry-content{
+width: 100% !important;
+
+}
+
+/*adds a border to the featured image on the about page.*/
+.page-id-26 .single-featured-image-header{
+border: 2px solid #24e7ff !important;
+border-radius: 4px;
+margin-top: 50px;
+
+}
+
+/*changes the borders on the contact forms to fit the rest of the theme.*/
+
+.colors-dark input[type="text"], .colors-dark input[type="email"], .colors-dark input[type="url"], .colors-dark input[type="password"], .colors-dark input[type="search"], .colors-dark input[type="number"], .colors-dark input[type="tel"], .colors-dark input[type="range"], .colors-dark input[type="date"], .colors-dark input[type="month"], .colors-dark input[type="week"], .colors-dark input[type="time"], .colors-dark input[type="datetime"], .colors-dark input[type="datetime-local"], .colors-dark input[type="color"], .colors-dark textarea, .colors-dark select, .colors-dark fieldset, .colors-dark .widget .tagcloud a:hover, .colors-dark .widget .tagcloud a:focus, .colors-dark .widget.widget_tag_cloud a:hover, .colors-dark .widget.widget_tag_cloud a:focus, .colors-dark .wp_widget_tag_cloud a:hover, .colors-dark .wp_widget_tag_cloud a:focus{
+border-color: #24e7ff !important;
+}
+
+/*adds hover color to timeline labels.*/
+.dark-style .wpex-timeline &gt; li .wpex-timeline-label h2 a:hover{
+color: #24e7ff !important;
+}
 
 <hr />
 
@@ -473,4 +504,4 @@ color: white;
 
 /*deletes "Proudly Powered by Wordpress" with extreme prejudice.*/
 .site-splay:none;
-}";s:10:"post_title";s:13:"Documentation";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"inherit";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:15:"484-autosave-v1";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-10-31 20:52:14";s:17:"post_modified_gmt";s:19:"2017-11-01 03:52:14";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:484;s:4:"guid";s:33:"http://localhost/484-autosave-v1/";s:10:"menu_order";i:0;s:9:"post_type";s:8:"revision";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}
+}";s:10:"post_title";s:13:"Documentation";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"inherit";s:14:"comment_status";s:6:"closed";s:11:"ping_status";s:6:"closed";s:13:"post_password";s:0:"";s:9:"post_name";s:15:"484-autosave-v1";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2017-10-31 21:46:27";s:17:"post_modified_gmt";s:19:"2017-11-01 04:46:27";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";i:484;s:4:"guid";s:33:"http://localhost/484-autosave-v1/";s:10:"menu_order";i:0;s:9:"post_type";s:8:"revision";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"0";s:6:"filter";s:3:"raw";}}

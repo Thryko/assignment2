@@ -1,4 +1,4 @@
-VEùY<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:485;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-04 01:41:01";s:13:"post_date_gmt";s:19:"2017-10-04 08:41:01";s:12:"post_content";s:7357:"<strong>Plugins Used:</strong>
+ZRùY<?php exit; ?>a:1:{s:7:"content";O:7:"WP_Post":24:{s:2:"ID";i:485;s:11:"post_author";s:1:"1";s:9:"post_date";s:19:"2017-10-04 01:41:01";s:13:"post_date_gmt";s:19:"2017-10-04 08:41:01";s:12:"post_content";s:7357:"<strong>Plugins Used:</strong>
 <ul>
  	<li>Contact Form 7 - Allows for neat, customization contact form.</li>
  	<li>Disable Comments - Disables Comments.</li>

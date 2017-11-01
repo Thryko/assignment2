@@ -160,10 +160,37 @@ as well as the top and nav.*/
     padding-top: 65px !important;
 }
 
+
+/*adds thematic borders to the 404 page.*/
 .error404 video{
     border: 2px solid #24e7ff;
     border-radius: 4px;
 }
+
+/*Makes the "About" page single-column.*/
+.page-id-26 .entry-content{
+    width: 100% !important;
+    
+}
+
+/*adds a border to the featured image on the about page.*/
+.page-id-26 .single-featured-image-header{
+    border: 2px solid #24e7ff !important;
+    border-radius: 4px;
+    margin-top: 50px;
+    
+}
+
+/*changes the borders on the contact forms to fit the rest of the theme.*/
+.colors-dark input[type="text"], .colors-dark input[type="email"], .colors-dark input[type="url"], .colors-dark input[type="password"], .colors-dark input[type="search"], .colors-dark input[type="number"], .colors-dark input[type="tel"], .colors-dark input[type="range"], .colors-dark input[type="date"], .colors-dark input[type="month"], .colors-dark input[type="week"], .colors-dark input[type="time"], .colors-dark input[type="datetime"], .colors-dark input[type="datetime-local"], .colors-dark input[type="color"], .colors-dark textarea, .colors-dark select, .colors-dark fieldset, .colors-dark .widget .tagcloud a:hover, .colors-dark .widget .tagcloud a:focus, .colors-dark .widget.widget_tag_cloud a:hover, .colors-dark .widget.widget_tag_cloud a:focus, .colors-dark .wp_widget_tag_cloud a:hover, .colors-dark .wp_widget_tag_cloud a:focus{
+    border-color: #24e7ff !important;
+}
+
+/*adds hover color to timeline labels.*/
+.dark-style .wpex-timeline > li .wpex-timeline-label h2 a:hover{
+    color: #24e7ff !important;
+}
+
 /*-----------------------------------------------------------------------------------*/
 
 /*!!!!!Rules below are from assignment 1. Rules above are either changed or new.!!!!!!/
