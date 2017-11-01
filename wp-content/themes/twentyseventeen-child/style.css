@@ -44,8 +44,8 @@ UPDATE: PATH MODIFIED TO FUNCTION WITH CHILD THEME.*/
    
     background-image:url('custom-assets/moon-40.png') !important;
 
-    width: 40px; //WIDTH of the icon
-    height: 20px; //HEIGHT of the icon
+    width: 40px; /*WIDTH of the icon*/
+    height: 40px; /*HEIGHT of the icon*/
     display: inline-block;
     background-position:center;
     background-size:cover;
@@ -84,10 +84,15 @@ also kicks it down a bit for better spacing.*/
     padding-bottom: 80px !important;
 }
 
+
+/*kicks the social links menu over to the center of the page*/
 .site-footer .social-navigation {
      text-align: center;
      width: 100%;
 }
+
+
+
 /*-----------------------------------------------------------------------------------*/
 
 /*!!!!!Rules below are from assignment 1. Rules above are either changed or new.!!!!!!/
