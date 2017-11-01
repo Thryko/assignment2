@@ -92,6 +92,33 @@ also kicks it down a bit for better spacing.*/
 }
 
 
+/**PAGE MODIFICATIONS FOR "PEOPLE" PAGE*/
+#post-522 .entry-header{
+    display: none !important;
+}
+#post-522 .entry-content{
+    width: 100% !important;
+}
+.awsm-personal-info{
+    color: #24e7ff;
+}
+.awsm-personal-info h3{
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.awsm-contact-info p{
+    color: #ffffff;
+}
+.awsm-grid-wrapper figcaption{
+    padding: 27px 30px;
+    background-color: #555;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.15);
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 5px;
+}
+
 
 /*-----------------------------------------------------------------------------------*/
 
