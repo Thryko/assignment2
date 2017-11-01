@@ -92,31 +92,71 @@ also kicks it down a bit for better spacing.*/
 }
 
 
-/**PAGE MODIFICATIONS FOR "PEOPLE" PAGE*/
+/*The next two rules combine to make the people page single-column
+without affecting the rest of the site.*/
 #post-522 .entry-header{
     display: none !important;
 }
+
+/*see above*/
 #post-522 .entry-content{
     width: 100% !important;
 }
+
+/*Changes color of main descriptor text on people page*/
 .awsm-personal-info{
     color: #24e7ff;
 }
+
+/*changes person names to uppercase, changes font color to white for contrast/theme homogeny*/
 .awsm-personal-info h3{
     color: #ffffff !important;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+/*Changes body text for biographies to white*/
 .awsm-contact-info p{
     color: #ffffff;
 }
+
+/*Addsa  dashed border between title information and body text*/
+.awsm-contact-info p:first-of-type{
+    border-top: 2px dashed;
+    border-color: dimgray;
+    padding-top: 15px;
+}
+
+/*adds a nice rounded shape/background to the biography "Card".*/
 .awsm-grid-wrapper figcaption{
     padding: 27px 30px;
     background-color: #555;
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.15);
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 5px;
+}
+
+/*adds blue border to biography thumbs in keeping with the color scheme so far.*/
+.awsm-grid-card figure img{
+    border: 2px solid #24e7ff;
+    border-radius: 5px;
+}
+
+/*Adds a dashed blue line between each entry on the people page other than the last*/
+.entry-content .awsm-grid-card:not(:last-child){
+    margin-bottom: 40px !important;
+    border-bottom: 1px dashed #24e7ff !important;
+    padding-bottom: 40px;
+}
+
+
+/*Eliminates a little bit of the HUGE space between the bottom entry and the footer
+as well as the top and nav.*/
+.page-id-522 #content{
+    padding-bottom: 0px !important;
+    margin-bottom: 0px;
+    padding-top: 65px !important;
 }
 
 
