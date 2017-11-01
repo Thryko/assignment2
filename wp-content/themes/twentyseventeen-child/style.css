@@ -119,6 +119,7 @@ without affecting the rest of the site.*/
 /*Changes body text for biographies to white*/
 .awsm-contact-info p{
     color: #ffffff;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*Addsa  dashed border between title information and body text*/
@@ -159,7 +160,10 @@ as well as the top and nav.*/
     padding-top: 65px !important;
 }
 
-
+.error404 video{
+    border: 2px solid #24e7ff;
+    border-radius: 4px;
+}
 /*-----------------------------------------------------------------------------------*/
 
 /*!!!!!Rules below are from assignment 1. Rules above are either changed or new.!!!!!!/
